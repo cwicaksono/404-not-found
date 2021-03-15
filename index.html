@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700:400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Devchallenges</title>
+
+	<style>
+	*{margin: 0; padding: 0;}
+	nav{
+		width: 100%;
+		padding: 25px;
+	}
+	nav h1{
+		font-family: 'Inconsolata';
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 25px;
+		letter-spacing: -0.08em;
+		text-align: left;
+	}
+	.container{
+		width: 1140px;
+		margin: 0 auto;
+		display: block;
+	}
+	.wrapper{
+		display: flex;
+	}
+	.wrapper .image{
+		width: 50%;
+	}
+		.wrapper .image img{
+			width: 80%;
+			margin-left: 10%;
+			margin-top: 10%;
+		}
+	.content{
+		width: 50%;
+		margin-top: 40px;
+		margin-bottom: 160px;
+	}
+	.content h1{
+		font-family: 'Space Mono';
+		font-size: 64px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 95px;
+		letter-spacing: -0.035em;
+		text-align: left;
+		margin-bottom: 40px;
+	}
+	.content p{
+		font-family: 'Space Mono';
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 36px;
+		letter-spacing: -0.035em;
+		text-align: left;
+		padding-right: 160px;
+	}
+		.content p.link{
+			margin-top: 60px;
+		}
+		.content p a{
+			background: #333333;
+			color: #ffffff;
+			padding: 20px 40px;
+			margin-top: 40px;
+			text-decoration: none;
+			font-family: 'Space Mono';
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 21px;
+			letter-spacing: -0.035em;
+			text-align: left;
+
+		}
+	.footer{
+		margin-top: 40px;
+		margin-bottom: 20px;
+		width: 100%;
+		display: block;
+	}
+		.footer p{
+			font-family: 'Montserrat';
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 17px;
+			letter-spacing: 0em;
+			text-align: center;
+		}
+	.clearfix {
+  		overflow: auto;
+	}
+	.clearfix::after {
+	  	content: "";
+	  	clear: both;
+	  	display: table;
+	}
+	@media only screen and (max-width: 600px) {
+		nav{
+			padding: 20px;
+		}
+		.container{
+			width: 100%;
+		}
+		.wrapper{
+			display: block;
+		}
+			.container .image{
+				padding: 0;
+				width: 100%;
+			}
+			.container .image img{
+				width: 100%;
+				margin: 40px auto;
+			}
+			.content{
+				width: 100%;
+				margin: 0px;
+			}
+			.content h1{
+				width: 90%;
+				font-size: 48px;
+				line-height: 70px;
+				margin-bottom: 35px;
+				padding: 0px 0px 0px 25px;
+			}
+			.content p{
+				font-size: 18px;
+				width: 80%;
+				padding-right: 0;
+				padding: 20px 40px;
+				text-align: left;
+				margin: 0px;
+				padding: 0 25px;
+			}
+			.content p.link{
+				margin-top: 60px;
+			}
+		.footer{
+			margin-top: 100px;
+			width: 100%;
+		}
+			.footer p{
+				font-size: 14px;
+				margin: 0 auto;
+				padding: 20px;
+				line-height: 24px;
+			}
+
+	}
+	</style>
+</head>
+<body>
+	<div class="container clearfix">
+		<nav>
+			<h1>404 Not Found</h1>
+		</nav>
+		<div class="wrapper">
+			<div class="image">
+				<img src="scarecrow.png" alt="404 Not Found"/>
+			</div>
+			<div class="content">
+				<h1>I have bad news for you</h1>
+				<p>The page you are looking for might be removed or is temporarily unavailable</p>
+
+				<p class="link"><a href="?">BACK TO HOMEPAGE</a></p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<p>created by cwicaksono - devChallenges.io</p>
+		</div>
+	</div>
+</body>
+</html>
